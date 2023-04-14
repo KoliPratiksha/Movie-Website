@@ -1,0 +1,71 @@
+
+.back{
+    background-image: url(./pexels-donald-tong-109669.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.back::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.z{
+    z-index: 1;
+}
+video {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 10rem;
+    border-top-left-radius: 10rem;
+   
+  }
+  .picture{
+    background-color: rgb(198, 219, 171);
+  }
+#movie{
+    background-color: rgb(6, 6, 43);
+}
+#movie .card{
+    background-color: rgb(6, 6, 43);
+
+}
+.card img{
+    border-radius: 10%;
+}
+.card1 img{
+    border-radius: 10%;
+}
+
+.background{
+    background-image: url(./istockphoto-1058727850-612x612.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    background-color: rgb(6, 6, 66);
+}
+.background::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.col-md-6 img{
+  border-radius: 20rem;
+}
+@media screen and(max-width:768px) {
+    .right a{
+        display: none;
+    }
+    .form-control{
+        display: none;
+    }
+}
